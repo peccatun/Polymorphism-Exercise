@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace WildFarm
 {
@@ -18,7 +18,7 @@ namespace WildFarm
         public override void Feed(string foodType, int quantity)
         {
 
-            if (foodType == "Vegetable" || foodType == "Meat")
+            if (foodType == "Vegetable" || foodType == "Fruit")
             {
                 double getFat = quantity * 0.10;
                 Weight += getFat;
@@ -26,7 +26,7 @@ namespace WildFarm
             }
             else
             {
-                Console.WriteLine($"Mouse does not eat {foodType}");
+                Console.WriteLine($"Mouse does not eat {foodType}!");
             }
 
         }

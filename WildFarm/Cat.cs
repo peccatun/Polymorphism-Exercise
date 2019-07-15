@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace WildFarm
 {
@@ -19,13 +19,13 @@ namespace WildFarm
         { 
             if (foodType == "Meat" || foodType == "Vegetable")
             {
-                double getFat = quantity * 0.10;
+                double getFat = quantity * 0.30d;
                 Weight += getFat;
                 FoodEaten += quantity;
             }
             else
             {
-                Console.WriteLine($"Cat does not eat {foodType}");
+                Console.WriteLine($"Cat does not eat {foodType}!");
             }
         }
         public override string ToString()

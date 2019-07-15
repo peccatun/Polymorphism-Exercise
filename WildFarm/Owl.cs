@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 namespace WildFarm
 {
@@ -25,13 +25,13 @@ namespace WildFarm
             }
             else
             {
-                Console.WriteLine($"Own does not eat {foodType}");
+                Console.WriteLine($"Own does not eat {foodType}!");
             }
         }
 
         public override string ToString()
         {
-            return $"Own [{Name}, {WingSize}, {Weight}, {FoodEaten}]";
+            return $"Owl [{Name}, {WingSize}, {Weight}, {FoodEaten}]";
         }
     }
 }

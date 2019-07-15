@@ -1,4 +1,19 @@
-﻿using System;
+//+src=Vegetable.cs
+//+src=Tiger.cs
+//+src=Seeds.cs
+//+src=Owl.cs
+//+src=Meat.cs
+//+src=Mause.cs
+//+src=Mammal.cs
+//+src=Hen.cs
+//+src=Fruid.cs
+//+src=Food.cs
+//+src=Feline.cs
+//+src=Dog.cs
+//+src=Cat.cs
+//+src=Bird.cs
+//+src=Animal.cs
+using System;
 using System.Collections.Generic;
 
 namespace WildFarm
@@ -74,7 +89,7 @@ namespace WildFarm
                         animals[animalToFeed].Feed(foodType, quantity);
                         
                     }
-                    else if (foodType == "Fruid")
+                    else if (foodType == "Fruit")
                     {
                         Fruid fruid = new Fruid(quantity);
                         animals[animalToFeed].Feed(foodType, quantity);

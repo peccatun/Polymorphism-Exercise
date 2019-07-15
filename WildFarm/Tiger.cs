@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -22,13 +22,13 @@ namespace WildFarm
 
             if (foodType == "Meat")
             {
-                double getFat = quantity * 0.10;
+                double getFat = quantity * 1d;
                 Weight += getFat;
                 FoodEaten += quantity;
             }
             else
             {
-                Console.WriteLine($"Tiger does not eat {foodType}");
+                Console.WriteLine($"Tiger does not eat {foodType}!");
             }
 
         }
